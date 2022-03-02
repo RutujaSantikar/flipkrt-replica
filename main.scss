@@ -1,0 +1,222 @@
+$nav-color: #2874f0;
+$backgnd-colr: #f1f3f6;
+$font-color: #212121;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+  header {
+    
+    nav {
+      background-color: $nav-color;
+      height: 50px;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      position: fixed;
+      width: 100%;
+      z-index: 999;
+      
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        li {
+          list-style-type: none;
+          margin-top: 10px;
+
+          a {
+            color: white;
+            text-decoration: none;
+            color: #2874f0;
+            background-color: white;
+            padding: 8px 30px 8px 30px;
+            border-radius: 2px;
+          }
+
+          .fas {
+            margin-right: 5px;
+          }
+        }
+      }
+      
+    }
+
+
+    
+    
+  }
+
+  .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    
+    border-bottom: 1px solid rgb(163, 162, 162);
+    
+
+    .text {
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+  }
+
+  .mainContent {
+    background-color: #f1f3f6;
+
+    #mainBody {
+      .slides {
+        padding: 10px;
+
+        .w-100 {
+          width: 90%;
+          height: 250px;
+        }
+      }
+
+      .deals {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .dealItems {
+          background-color: white;
+          display: flex;
+          border-radius: 2px;
+          width: 75%;
+          justify-content: space-evenly;
+          align-items: center;
+
+          .dealItems > div {
+            flex-direction: row;
+            justify-content: space-between;
+            //  align-items: center;
+          }
+          .green {
+            color: green;
+          }
+          .gray {
+            color: gray;
+          }
+        }
+        .mcard {
+          float: right;
+        }
+      }
+
+      .furniture {
+        display: block;
+        background-color: white;
+        width: 99%;
+        margin-top: 10px;
+        margin-left: 5px;
+        border-radius: 2px;
+        
+
+        .head {
+          padding: 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          border-bottom: 1px solid rgb(163, 162, 162);
+        }
+
+        .funItems {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          padding-top: 50px;
+          
+          .gray {
+            color: gray;
+          }
+          .green {
+            color: green;
+          }
+        
+        }
+      }
+    }
+    #info{
+        background-color: white;
+        border-top: 1px solid black;
+        margin-top: 50px;
+        
+          .info{
+              padding: 20px;
+            
+        
+            span{
+                color: gray;
+            }
+            p{
+                color: gray;
+            }
+            #small{
+                font-size:10px;
+            }
+          }
+        }
+  }
+   #info{
+border-top: 1px solid black;
+
+  .info{
+      padding: 20px;
+    
+
+    span{
+        color: gray;
+    }
+    p{
+        color: gray;
+    }
+  }
+}
+
+footer{
+
+    .f-info{
+
+    
+
+    background-color: #172337;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    justify-content: space-around;
+   
+li{
+    list-style-type: none;
+
+}
+    h6{
+        color: gray;
+    }
+}
+}
+
+
+.searchBoxCont{
+
+  background-color: white;
+  padding: 0 5px;
+  i{
+    color: gray;
+  }
+  .searchBox{
+    width: 300px;
+    padding:  5px;
+    border: none;
+    border-radius: 2px;
+  }
+}

@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header nav {
+  background-color: #2874f0;
+  height: 50px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  color: #2874f0;
+  background-color: white;
+  padding: 8px 30px 8px 30px;
+  border-radius: 2px;
+}
+
+header nav ul li .fas {
+  margin-right: 5px;
+}
+
+.items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 50px;
+  border-bottom: 1px solid #a3a2a2;
+}
+
+.items .text {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.mainContent {
+  background-color: #f1f3f6;
+}
+
+.mainContent #mainBody .slides {
+  padding: 10px;
+}
+
+.mainContent #mainBody .slides .w-100 {
+  width: 90%;
+  height: 250px;
+}
+
+.mainContent #mainBody .deals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mainContent #mainBody .deals .dealItems {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 2px;
+  width: 75%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainContent #mainBody .deals .dealItems .dealItems > div {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mainContent #mainBody .deals .dealItems .green {
+  color: green;
+}
+
+.mainContent #mainBody .deals .dealItems .gray {
+  color: gray;
+}
+
+.mainContent #mainBody .deals .mcard {
+  float: right;
+}
+
+.mainContent #mainBody .furniture {
+  display: block;
+  background-color: white;
+  width: 99%;
+  margin-top: 10px;
+  margin-left: 5px;
+  border-radius: 2px;
+}
+
+.mainContent #mainBody .furniture .head {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #a3a2a2;
+}
+
+.mainContent #mainBody .furniture .funItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+.mainContent #mainBody .furniture .funItems .gray {
+  color: gray;
+}
+
+.mainContent #mainBody .furniture .funItems .green {
+  color: green;
+}
+
+.mainContent #info {
+  background-color: white;
+  border-top: 1px solid black;
+  margin-top: 50px;
+}
+
+.mainContent #info .info {
+  padding: 20px;
+}
+
+.mainContent #info .info span {
+  color: gray;
+}
+
+.mainContent #info .info p {
+  color: gray;
+}
+
+.mainContent #info .info #small {
+  font-size: 10px;
+}
+
+#info {
+  border-top: 1px solid black;
+}
+
+#info .info {
+  padding: 20px;
+}
+
+#info .info span {
+  color: gray;
+}
+
+#info .info p {
+  color: gray;
+}
+
+footer .f-info {
+  background-color: #172337;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 13px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .f-info li {
+  list-style-type: none;
+}
+
+footer .f-info h6 {
+  color: gray;
+}
+
+.searchBoxCont {
+  background-color: white;
+  padding: 0 5px;
+}
+
+.searchBoxCont i {
+  color: gray;
+}
+
+.searchBoxCont .searchBox {
+  width: 300px;
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+}
+/*# sourceMappingURL=main.css.map */
